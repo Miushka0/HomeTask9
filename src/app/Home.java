@@ -14,9 +14,6 @@ public class Home {
             for (int j = 0; j < matrix2[i].length; j++) {
                 matrix2[i][j] = random.nextInt(50) + 1;
             }
-        }
-
-        for (int i = 0; i < matrix2.length; i++) {
             System.out.println(Arrays.toString(matrix2[i]));
         }
 
